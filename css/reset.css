@@ -1,0 +1,78 @@
+body {
+  font-family: "Anek Latin", sans-serif;
+  background-color: #f8f8f8;
+  line-height: 1.2;
+  color: rgba(17, 17, 17);
+  letter-spacing: -0.02em;
+  padding-top: 24px;
+}
+
+.btn {
+  font-weight: 600;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  display: block;
+}
+
+.container {
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1296px;
+    margin: 0 auto;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
